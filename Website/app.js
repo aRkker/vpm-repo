@@ -76,17 +76,6 @@ const setTheme = () => {
     addListingToVccHelp.hidden = true;
   });
 
-    const vccListingInfoUrlFieldCopy2 = document.getElementById('vccListingInfoUrlFieldCopy2');
-    vccListingInfoUrlFieldCopy2.addEventListener('click', () => {
-      const vccUrlField = document.getElementById('vccListingInfoUrlField2');
-      vccUrlField.select();
-      navigator.clipboard.writeText(vccUrlField.value);
-      vccUrlFieldCopy.appearance = 'accent';
-      setTimeout(() => {
-        vccUrlFieldCopy.appearance = 'neutral';
-      }, 1000);
-    });
-
   const vccListingInfoUrlFieldCopy = document.getElementById('vccListingInfoUrlFieldCopy');
   vccListingInfoUrlFieldCopy.addEventListener('click', () => {
     const vccUrlField = document.getElementById('vccListingInfoUrlField');
@@ -100,9 +89,6 @@ const setTheme = () => {
 
   const vccAddRepoButton = document.getElementById('vccAddRepoButton');
   vccAddRepoButton.addEventListener('click', () => window.location.assign(`vcc://vpm/addRepo?url=${encodeURIComponent(LISTING_URL)}`));
-
-    const vccAddRepoButton2 = document.getElementById('vccAddRepoButton2');
-    vccAddRepoButton2.addEventListener('click', () => window.location.assign(`vcc://vpm/addRepo?url=${encodeURIComponent(LISTING_URL)}`));
 
   const vccUrlFieldCopy = document.getElementById('vccUrlFieldCopy');
   vccUrlFieldCopy.addEventListener('click', () => {
