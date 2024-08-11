@@ -3,14 +3,14 @@
     "id":"com.arkker.vpm-repo",
     "url":"https://arkker.github.io/vpm-repo/index.json",
     "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+        "email":"",
+        "name":"aRkker",
+        "url":"https://arkker.github.io/vpm-repo/index.json"
     },
-    "description":"Example listing of VRChat packages",
+    "description":"aRkker's packages, I guess",
     "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
-        "text":"View on GitHub"
+        "url":"https://arkker.github.io/vpm-repo/index.json",
+        "text":""
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
