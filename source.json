@@ -14,7 +14,8 @@
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "aRkker/vpm-microphone-zone"
+        "aRkker/vpm-microphone-zone",
+        "aRkker/vpm-player-queue"
     ],
     "packages":[
 
