@@ -1,7 +1,7 @@
 {
     "name":"Test thing",
     "id":"com.arkker.vpm-repo",
-    "url":"https://arkker.github.io/vpm-rpo/index.json",
+    "url":"https://arkker.github.io/vpm-repo/index.json",
     "author":{
         "email":"developer@vrchat.com",
         "name":"VRChat",
